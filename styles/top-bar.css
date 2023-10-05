@@ -3,6 +3,16 @@ body {
   margin: 0px;
 }
 
+:root {
+  --primary-color: white;
+  --icon-color: black;
+}
+
+.dark-theme {
+  --primary-color: black;
+  --icon-color: white;
+}
+
 .top-bar {
   display: flex;
   flex-direction: row;
@@ -13,7 +23,7 @@ body {
   left: 0;
   right: 0;
   top: 0;
-  background-color: white;
+  background-color: var(--primary-color);
   border-bottom: solid;
   border-width: 1px;
   border-color: rgb(207, 207, 207);
@@ -88,23 +98,69 @@ body {
 .create-video,
 .bell-icon,
 .notification-icon,
-.search-icon,
 .voice-search-icon {
-  width: 24px;
+  width: 30px;
   cursor: pointer;
   padding: 5px;
   border-radius: 20px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  border: none;
+  background-color: white;
 }
+
+.create-video:hover,
+.bell-icon:hover,
+.notification-icon:hover,
+.hamburger-menu:hover,
+.voice-search-icon:hover {
+    background-color: rgb(245, 245, 245);
+}
+
 
 .hamburger-menu {
   margin-left: -5px;
   padding: 5px;
-  width: 24px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
 }
-
 .my-profile-picture {
   width: 32px;
   border-radius: 16px;
 }
+
+.menu-icon {
+  font-size: 20px;
+}
+
+.play-icon {
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin: 0px 12px;
+}
+
+.logo-name {
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  margin-left: -8px;
+}
+
+.search-icon,
+.mic-icon,
+.videocam-icon,
+.notifications-icon {
+  font-size: 22px;
+  color: var(--icon-color);
+}
+
