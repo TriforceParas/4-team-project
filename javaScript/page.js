@@ -3,15 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const modeStatus = document.querySelector('.mode-status');
   let darkMode = false;
   modeDarkSwicher.addEventListener('click', () => {
-    if (darkMode === false) {
-      darkMode = true;
-      modeDarkSwicher.classList.add('dark');
+    document.body.classList.toggle('dark-theme');
+    if (document.body.classList.contains('dark-theme')) {
       modeStatus.innerHTML = 'Dark';
-    } else if (darkMode === true) {
-      darkMode = false;
-      modeDarkSwicher.classList.remove('dark');
-      modeStatus.innerHTML = 'Light';
-    }
-    
+    } else modeStatus.innerHTML = 'Light';
   })
 })
