@@ -2,6 +2,7 @@ body {
   font-family: Roboto;
   margin: 0px;
   background-color: var(--primary-color);
+  transition: 0.15s;
 }
 
 :root {
@@ -39,6 +40,7 @@ body {
   border-width: 1px;
   border-color: var(--border-color);
   z-index: 1;
+  transition: 0.15s;
 }
 
 .left-side {
@@ -107,6 +109,7 @@ body {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   color: var(--b-t-w-color);
+  transition: 0.15s;
 }
 
 .search-bar::placeholder {
