@@ -142,6 +142,16 @@ let homePage = `
 let videoPage = `
 
 `;
+let shortsPage = `
+<div class="scroll-video-button">
+<button class="scroll-up-button">
+  <ion-icon name="arrow-up-outline"></ion-icon>
+</button>
+<button class="scroll-down-button">
+  <ion-icon name="arrow-down-outline"></ion-icon>
+</button>
+</div>
+`;
 let musicPage = '';
 let profilePage = '';
 
