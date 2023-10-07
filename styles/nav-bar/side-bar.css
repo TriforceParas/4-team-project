@@ -1,0 +1,51 @@
+:root {
+  --primary-color: white;
+  --b-t-w-color: black;
+  --hover-color: rgb(238, 238, 238);
+}
+
+.dark-theme {
+  --primary-color: rgb(17, 17, 17);
+  --b-t-w-color: white;
+  --hover-color: rgb(39, 39, 39);
+}
+
+.side-bar-menu {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  width: 72px;
+  background-color: var(--primary-color);
+  z-index: 2;
+  padding-top: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.side-bar-menu ion-icon {
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 4px;
+  color: var(--b-t-w-color);
+}
+
+.side-bar-menu div {
+  font-size: 10px;
+  font-family: Robot, Arial;
+  display: flex;
+  color: var(--b-t-w-color);
+
+}
+
+.side-bar {
+  height: 74px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.15s;
+}
+
+.side-bar:hover {
+  background-color: var(--hover-color);
+}
