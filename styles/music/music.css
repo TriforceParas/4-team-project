@@ -1,0 +1,113 @@
+/* CSS Code for Main Contect of YouTube Music Page */
+
+/* Body of page CSS Code */
+body {
+    font-family: Roboto, Arial;
+    padding: 100px 60px 0px 120px;
+}
+
+/* Audio on page CSS Code */
+.main-content-audio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Main audio contect left and right section CSS Code */
+.main-content-audio .left-section,
+.main-content-audio .right-section {
+    padding: 100px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Audio image CSS Code*/
+.audio-image img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+audio {
+    width: 500px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.right-section {
+    display: flex;
+}
+
+.audio-title {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.audio-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-bottom: 20px;
+
+}
+
+/* Audio Sort Button CSS Code */
+.audio-sort button{
+    background-color: rgb(214, 214, 214);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 0px 0px 10px 10px;
+
+}
+
+/* Audio Navigation Button CSS Code */
+.audio-navigation button {
+    background-color: rgb(245, 245, 245);
+    flex: 1;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-bottom: solid 1px;
+    padding: 20px;
+    max-width: 150px;
+
+}
+
+/* Audion recomendation CSS Code */
+.audio-recomendation {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.audio-recomendation-container{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.reco-audio-image-title-author {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.reco-audio-image-title-author img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.reco-audio-author,
+.reco-audio-duration {
+    color: gray;
+    font-size: 14px;
+}

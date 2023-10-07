@@ -1,0 +1,151 @@
+/* CSS code for Main Video content for YouTube Page  */
+
+/* Video Page CSS Code*/
+.video-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+
+.video-play {
+    border-radius: 20px;
+}
+
+.video-recomended {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.author-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Recomended Video Thumbnail CSS Code */
+.reco-vid-thumbnail {
+    display: inline-block;
+    position: relative;
+}
+
+.reco-vid-thumbnail img {
+    width: 220px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+/* Recomended Video duration CSS Code */
+.time-count {
+    background-color: rgba(39, 39, 39, 0.90);
+    color: white;
+    position: absolute;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 4px;
+    right: 10px;
+}
+
+/* Video Title CSS Code */
+.video-title {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+}
+
+.video-interface,
+.interface-left-section,
+.interface-right-section {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+/* Like-Dislike section CSS Code */
+.like-dislike-button {
+    display: flex;
+
+}
+
+/* Share, Download, Like, Dislike Button CSS Code */
+.share-button,
+.download-button,
+.like-button,
+.dislike-button {
+    padding: 9px 16px 9px 16px;;
+    border-radius: 18px;
+    border: none;
+    font: Roboto, Arial;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgb(222, 222, 222);
+    cursor: pointer;
+    display: flex;
+    column-gap: 5px;
+}
+
+.share-button:hover,
+.download-button:hover,
+.like-button:hover,
+.dislike-button:hover {
+    border: solid px rgb(163, 163, 163);
+}
+
+.like-button {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.dislike-button {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: solid 1px rgb(201, 201, 201);
+}
+
+.subscribe-button {
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 9px 16px 9px 16px;
+    border-radius: 18px;
+    border: none;
+    font: Roboto, Arial;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transition: 0.15s;
+    align-content: center;
+}
+
+.subscribe-button:hover {
+    background-color: rgb(217, 2, 2);
+}
+
+
+/* Recomended Video Discription CSS Code */
+.reco-vid-title,
+.author-name,
+.author-subscribers,
+.reco-vid-author,
+.views-uploaddate {
+    font-family: Roboto, Arial;
+    cursor: pointer;
+}
+
+.reco-vid-title {
+    margin-bottom: 14px;
+}
+
+.reco-vid-author,
+.views-uploaddate,
+.author-subscribers {
+    color: rgb(99, 98, 98);
+    font-size: 12px;
+}
