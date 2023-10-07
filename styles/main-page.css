@@ -1,0 +1,51 @@
+:root {
+    --primary-color: white;
+    --b-t-w-color: black;
+    --w-t-b-color: white;
+    --hover-color: rgb(238, 238, 238);
+    --scroll-button-color: rgb(238, 238, 238);
+    --scroll-hover-color: rgb(224, 224, 224);
+    --border-color: rgb(199, 199, 199);
+  }
+  
+  .dark-theme {
+    --primary-color: rgb(17, 17, 17);
+    --b-t-w-color: white;
+    --w-t-b-color: black;
+    --hover-color: rgb(39, 39, 39);
+    --scroll-button-color: rgb(37, 37, 37);
+    --scroll-hover-color: rgb(48, 48, 48);
+    --border-color: rgb(59, 59, 59);
+  }
+
+.scroll-up-button,
+.scroll-down-button {
+    transition: 0.15s;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 10px;
+    padding: 15px;
+    border-radius: 40px;
+    background-color: var(--scroll-button-color);
+    border: solid 1px var(--border-color);
+    cursor: pointer;
+
+}
+
+.scroll-up-button {
+    top: 68px;
+}
+.scroll-down-button {
+    bottom: 10px;
+}
+
+.scroll-down-button:hover,
+.scroll-up-button:hover {
+    background-color: var(--scroll-hover-color);
+}
+
+.scroll-video-button button ion-icon {
+    font-size: 25px;
+    color: var(--b-t-w-color);
+}
