@@ -11,7 +11,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-16">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YouTube</title>
 </head>
@@ -20,16 +20,12 @@
 <link rel="stylesheet" href="styles/shorts/shorts.css">
 <link rel="stylesheet" href="styles/video/video.css">
 <link rel="stylesheet" href="styles/music/music.css">
+<link rel="stylesheet" href="styles/home/home.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
   href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
   rel="stylesheet">
-<link rel="stylesheet" href="styles/home/home.css">
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="javaScript/darkModeLoader.js"></script>
-<script src="javaScript/mainPageLoader.js"></script>
 
 <body>
   <nav class="top-bar">
@@ -47,7 +43,7 @@
       <button class="mode-switch">Mode: <span class="mode-status">Light</span></button>
       <button class="create-video"><ion-icon class="videocam-icon" name="videocam-outline"></ion-icon></button>
       <button class="bell-icon"><ion-icon class="notifications-icon" name="notifications-outline"></ion-icon></button>
-      <button class="my-profile-picture js-profile-button"><img src="images/profile-picture.png"></button>
+      <button class="my-profile-picture js-profile-button"><img src="assets/nav-bar/images/profile-picture.png"></button>
     </div>
   </nav>
   <nav class="side-bar-menu">
@@ -70,5 +66,13 @@
   </nav>
   <div class="main-page js-main-page"></div>
 </body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="javaScript/dark-mode.js"></script>
+<script src="javaScript/data-storage.js"></script>
+<script src="javaScript/HTML-Page-Layout.js"></script>
+<script src="javaScript/HTML-Generator.js"></script>
+<script src="javaScript/Page-Generator.js"></script>
 
 </html>

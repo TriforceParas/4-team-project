@@ -10,6 +10,8 @@ body {
 .main-content-audio {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: -20px;
+    margin-top: -20px;
 }
 
 /* Main audio contect left and right section CSS Code */

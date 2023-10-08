@@ -1,7 +1,15 @@
-/* CSS code for Main Video content for YouTube Page  */
+:root {
+    --b-t-w-color: black;
+    --button-color: rgb(238, 238, 238);
+}
 
-/* Video Page CSS Code*/
+.dark-theme {
+    --b-t-w-color: white;
+    --button-color: rgb(53, 53, 53);
+}
+
 .video-page {
+    margin: -20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
@@ -23,7 +31,6 @@
     cursor: pointer;
 }
 
-/* Recomended Video Thumbnail CSS Code */
 .reco-vid-thumbnail {
     display: inline-block;
     position: relative;
@@ -37,7 +44,6 @@
     cursor: pointer;
 }
 
-/* Recomended Video duration CSS Code */
 .time-count {
     background-color: rgba(39, 39, 39, 0.90);
     color: white;
@@ -47,15 +53,18 @@
     font-weight: 500;
     border-radius: 5px;
     padding: 4px;
-    right: 10px;
+    right: 14px;
+    z-index: 1;
+    bottom: 28px;
 }
 
-/* Video Title CSS Code */
 .video-title {
     font-size: 20px;
     margin-top: 10px;
     font-family: Roboto, Arial;
     font-weight: 500;
+    color: var(--b-t-w-color);
+    transition: 0.15s;
 }
 
 .video-interface,
@@ -68,13 +77,11 @@
     align-items: center;
 }
 
-/* Like-Dislike section CSS Code */
 .like-dislike-button {
     display: flex;
 
 }
 
-/* Share, Download, Like, Dislike Button CSS Code */
 .share-button,
 .download-button,
 .like-button,
@@ -85,7 +92,7 @@
     font: Roboto, Arial;
     font-size: 14px;
     font-weight: 500;
-    background-color: rgb(222, 222, 222);
+    background-color: var(--button-color);
     cursor: pointer;
     display: flex;
     column-gap: 5px;
@@ -139,8 +146,15 @@
     cursor: pointer;
 }
 
+.author-name {
+    color: var(--b-t-w-color);
+    transition: 0.15s;
+}
+
 .reco-vid-title {
     margin-bottom: 14px;
+    color: var(--b-t-w-color);
+    transition: 0.15s;
 }
 
 .reco-vid-author,
