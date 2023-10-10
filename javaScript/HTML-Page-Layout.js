@@ -4,7 +4,7 @@ let videoPageHTML = `
 <div class="video-page">
     <div class="current-video">
         <div>
-            <video class="video-play" controls="controls">
+            <video class="video-play" controls="controls" autoplay>
                 <source src="assets/video-page/video/Red birb.mp4" type="video/mp4" />
         </div>
         <div class="about-video">
@@ -40,7 +40,7 @@ let musicPageHTML = `
 <div class="main-content-audio">
     <div class="right-section">
         <div class="audio-image"><img src="assets/music-page/thumbnails/thumbnail-1.jpg"></div>
-        <div class="audio-player"><audio controls>
+        <div class="audio-player"><audio controls autoplay loop>
                 <source src="assets/music-page/song/videoplayback.ogg" type="audio/ogg">
             </audio></div>
         <div class="audio-title">Rondeau des fleurs et des rapieres</div>
