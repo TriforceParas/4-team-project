@@ -7,12 +7,14 @@ body {
     --b-t-2-color : black;
     --rec-audio-nav-color : rgb(245, 245, 245);
     --rec-audio-border-color : black;
+    --audio-controls-color : gray
 }
 
 .dark-theme {
     --b-t-2-color : white;
     --rec-audio-nav-color : rgb(58, 58, 58);
     --rec-audio-border-color : rgb(100, 100, 100);
+    --audio-controls-color : rgb(161, 161, 161);
 }
 .main-content-audio {
     display: grid;
@@ -45,6 +47,7 @@ audio {
     width: 500px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: var(--audio-controls-color);
 }
 
 .right-section {
