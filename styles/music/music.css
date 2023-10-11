@@ -1,20 +1,28 @@
-/* CSS Code for Main Contect of YouTube Music Page */
-
-/* Body of page CSS Code */
 body {
     font-family: Roboto, Arial;
     padding: 100px 60px 0px 120px;
 }
 
-/* Audio on page CSS Code */
+:root {
+    --b-t-2-color : black;
+    --rec-audio-nav-color : rgb(245, 245, 245);
+    --rec-audio-border-color : black;
+}
+
+.dark-theme {
+    --b-t-2-color : white;
+    --rec-audio-nav-color : rgb(58, 58, 58);
+    --rec-audio-border-color : rgb(100, 100, 100);
+}
 .main-content-audio {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: -20px;
     margin-top: -20px;
+    color: var(--b-t-2-color);
+    transition: 0.15s;
 }
 
-/* Main audio contect left and right section CSS Code */
 .main-content-audio .left-section,
 .main-content-audio .right-section {
     padding: 100px;
@@ -25,7 +33,6 @@ body {
     align-items: center;
 }
 
-/* Audio image CSS Code*/
 .audio-image img{
     width: 500px;
     height: 500px;
@@ -57,31 +64,31 @@ audio {
 
 }
 
-/* Audio Sort Button CSS Code */
 .audio-sort button{
-    background-color: rgb(214, 214, 214);
+    background-color: var(--rec-audio-nav-color);
+    color: var(--b-t-2-color);
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 16px;
     margin: 0px 0px 10px 10px;
+    transition: 0.15s;
 
 }
 
-/* Audio Navigation Button CSS Code */
 .audio-navigation button {
-    background-color: rgb(245, 245, 245);
+    background-color: var(--rec-audio-nav-color);
+    color: var(--b-t-2-color);
     flex: 1;
     font-size: 16px;
     font-weight: bold;
     border: none;
-    border-bottom: solid 1px;
+    border-bottom: solid 1px var(--rec-audio-border-color);
     padding: 20px;
     max-width: 150px;
-
+    transition: 0.15s;
 }
 
-/* Audion recomendation CSS Code */
 .audio-recomendation {
     display: flex;
     flex-direction: column;
