@@ -30,12 +30,17 @@
   color: var(--b-t-w-color);
 }
 
-.side-bar-menu div {
+.side-bar-menu div div{
   font-size: 10px;
   font-family: Robot, Arial;
   display: flex;
   color: var(--b-t-w-color);
+}
 
+.side-bar-menu {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
 
 .side-bar {

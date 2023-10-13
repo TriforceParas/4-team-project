@@ -30,9 +30,7 @@ let videoPageHTML = `
             </div>
         </div>
     </div>
-    <div class="video-recommendation">
-    
-    </div>
+    <div class="video-recommendation"></div>
 </div>
 `;
 
@@ -56,9 +54,7 @@ let musicPageHTML = `
             <button>Familier</button>
             <button>Instrumental</button>
         </div>
-        <div class="audio-recomendation">
-
-        </div>
+        <div class="audio-recomendation"></div>
     </div>
 </div>
 `;
@@ -74,4 +70,10 @@ let shortsPageHTML = `
 </div>
 `;
 
-let profilePageHTML = '';
+let communityTabHTML = ``;
+
+let profilePageHTML = ``;
+
+let creatorPageHTML = ``;
+
+let videoUploadPageHTML = ``;

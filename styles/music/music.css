@@ -1,125 +1,126 @@
 body {
-    font-family: Roboto, Arial;
-    padding: 100px 60px 0px 120px;
+  font-family: Roboto, Arial;
+  padding: 100px 60px 0px 120px;
 }
 
 :root {
-    --b-t-2-color : black;
-    --rec-audio-nav-color : rgb(245, 245, 245);
-    --rec-audio-border-color : black;
-    --audio-controls-color : gray
+  --b-t-2-color: black;
+  --rec-audio-nav-color: rgb(245, 245, 245);
+  --rec-audio-border-color: black;
+  --audio-controls-color: gray
 }
 
 .dark-theme {
-    --b-t-2-color : white;
-    --rec-audio-nav-color : rgb(58, 58, 58);
-    --rec-audio-border-color : rgb(100, 100, 100);
-    --audio-controls-color : rgb(161, 161, 161);
+  --b-t-2-color: white;
+  --rec-audio-nav-color: rgb(58, 58, 58);
+  --rec-audio-border-color: rgb(100, 100, 100);
+  --audio-controls-color: rgb(161, 161, 161);
 }
+
 .main-content-audio {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: -20px;
-    margin-top: -20px;
-    color: var(--b-t-2-color);
-    transition: 0.15s;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: -20px;
+  margin-top: -20px;
+  color: var(--b-t-2-color);
+  transition: 0.15s;
 }
 
 .main-content-audio .left-section,
 .main-content-audio .right-section {
-    padding: 100px;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding: 100px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.audio-image img{
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.audio-image img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 audio {
-    width: 500px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: var(--audio-controls-color);
+  width: 500px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: var(--audio-controls-color);
 }
 
 .right-section {
-    display: flex;
+  display: flex;
 }
 
 .audio-title {
-    font-size: 25px;
-    margin-top: 10px;
+  font-size: 25px;
+  margin-top: 10px;
 }
 
 .audio-navigation {
-    display: flex;
-    justify-content: space-between;
-    width: 500px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-bottom: 20px;
 
 }
 
-.audio-sort button{
-    background-color: var(--rec-audio-nav-color);
-    color: var(--b-t-2-color);
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 16px;
-    margin: 0px 0px 10px 10px;
-    transition: 0.15s;
+.audio-sort button {
+  background-color: var(--rec-audio-nav-color);
+  color: var(--b-t-2-color);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 0px 0px 10px 10px;
+  transition: 0.15s;
 
 }
 
 .audio-navigation button {
-    background-color: var(--rec-audio-nav-color);
-    color: var(--b-t-2-color);
-    flex: 1;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    border-bottom: solid 1px var(--rec-audio-border-color);
-    padding: 20px;
-    max-width: 150px;
-    transition: 0.15s;
+  background-color: var(--rec-audio-nav-color);
+  color: var(--b-t-2-color);
+  flex: 1;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-bottom: solid 1px var(--rec-audio-border-color);
+  padding: 20px;
+  max-width: 150px;
+  transition: 0.15s;
 }
 
 .audio-recomendation {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }
 
-.audio-recomendation-container{
-    display: flex;
-    width: 500px;
-    justify-content: space-between;
-    align-items: center;
+.audio-recomendation-container {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
 .reco-audio-image-title-author {
-    display: flex;
-    column-gap: 10px;
-    align-items: center;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
 }
 
 .reco-audio-image-title-author img {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .reco-audio-author,
 .reco-audio-duration {
-    color: gray;
-    font-size: 14px;
+  color: gray;
+  font-size: 14px;
 }
