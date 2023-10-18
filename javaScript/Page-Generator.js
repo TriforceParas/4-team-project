@@ -25,7 +25,7 @@ musicButton.addEventListener('click', () => {
 })
 shortsButton.addEventListener('click', () => {
   contentPage.innerHTML = shortsPageHTML;
-  document.querySelector('.video-area').innerHTML = shortsPage;
+  document.querySelector('.shorts-video-container').innerHTML = shortsPage;
 })
 profileButton.addEventListener('click', () => {
   contentPage.innerHTML = profilePageHTML;

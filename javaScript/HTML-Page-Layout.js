@@ -68,7 +68,7 @@ let shortsPageHTML = `
   <ion-icon name="arrow-down-outline"></ion-icon>
 </button>
 </div>
-<div class = "video-area"></div> 
+<div class="shorts-video-container"></div>
 `;
 
 let communityTabHTML = ``;
