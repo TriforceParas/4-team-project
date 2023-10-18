@@ -156,7 +156,7 @@ const shortsPageData = [
     title: "This is a Sample Video",
     videoLocation: "vid1.mp4",
     creatorName: "@lawdasur",
-    profilePictureLocation: "profile-picture.png",
+    profilePictureLocation: "profile-picture1.png",
     like: "230k",
     disLike: "10k",
     comments: "100k",
@@ -165,7 +165,7 @@ const shortsPageData = [
     title: "This is a Sample Video2",
     videoLocation: "vid2.mp4",
     creatorName: "@lawdasurPro",
-    profilePictureLocation: "creator1.png",
+    profilePictureLocation: "profile-picture2.png",
     like: "230k",
     disLike: "10k",
     comments: "100k",
@@ -175,26 +175,31 @@ const shortsPageData = [
 const creatorPageData = [
   {
     name: 'PARAS KUMAR SHARMA (Team Leader)',
+    photoLocation: 'paras.png',
     prn: 23030124225,
     contribution: 'Home,Video,Music,Shorts and JavaScript Back-End'
   },
   {
     name: 'AMEYA MANDAVGANE',
+    photoLocation: 'ameya.png',
     prn: 23030124239,
     contribution: 'Creator Page Front-End'
   },
   {
     name: 'KHUSHBOO SINGH',
+    photoLocation: 'khushboo.png',
     prn: 23030124207,
-    contribution: 'Community Tab Fron-End'
+    contribution: 'Community Tab Front-End'
   },
   {
     name: 'DRITHI CHOPRA',
+    photoLocation: 'drithi.png',
     prn: 23030124270,
     contribution: 'Login Page Front-End'
   },
   {
     name: 'ARYA JAGDALE',
+    photoLocation: 'arya.png',
     prn: 23030124258,
     contribution: 'Upload Page'
   },

@@ -66,12 +66,12 @@ shortsPage = `
 <div class="shorts-container">
 <div class="video-interact-container">
     <video class="shorts-player" autoplay loop>
-        <source src="${shortsPageData[currentVideo].videoLocation}" type="video/mp4" />
+        <source src="assets/shorts-page/shorts-videos/${shortsPageData[currentVideo].videoLocation}" type="video/mp4" />
     </video>
     <div class="video-overlay">
         <div class="shorts-title">${shortsPageData[currentVideo].title}</div>
         <div class="channel-subscribe-button">
-            <div class="profile-picture"><img src="${shortsPageData[currentVideo].profilePictureLocation}"><span>${shortsPageData[currentVideo].creatorName}</span></div>
+            <div class="profile-picture"><img src="assets/shorts-page/profile-picture/${shortsPageData[currentVideo].profilePictureLocation}"><span>${shortsPageData[currentVideo].creatorName}</span></div>
             <div><button class="subscribe-button">Subscribe</button></div>
         </div>
     </div>
@@ -85,7 +85,7 @@ shortsPage = `
         <button class="share-button"><ion-icon name="share-social-outline"></ion-icon></button>
         <span class="share-lable">Share</span>
         <button class="more-button"><ion-icon name="add-outline"></ion-icon></button>
-        <div class="profile-picture"><img src="${shortsPageData[currentVideo].profilePictureLocation}"></div>
+        <div class="profile-picture"><img src="assets/shorts-page/profile-picture/${shortsPageData[currentVideo].profilePictureLocation}"></div>
     </div>
 </div>
 </div>
@@ -95,7 +95,7 @@ creatorPageData.forEach((creator) => {
   creatorPage += `
     <div class="cp-container">
         <div class="cp-image-container">
-            <img class="image" alt="Image" src="https://cdn-icons-png.flaticon.com/512/64/64572.png ">
+            <img class="image" alt="Image" src="assets/creator-page/${creator.photoLocation} ">
         </div>
         <div class="cp-information-container">
             <div class="cp-information-content-container">
