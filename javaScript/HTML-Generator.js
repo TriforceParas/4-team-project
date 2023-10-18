@@ -2,7 +2,7 @@ let homePage = '';
 let videoPage = '';
 let musicPage = '';
 let shortsPage = '';
-let profilePage = '';
+let creatorPage = '';
 
 homePageData.forEach((home) => {
   homePage += `
@@ -90,3 +90,20 @@ shortsPage = `
 </div>
 </div>
 `
+
+creatorPageData.forEach((creator) => {
+  creatorPage += `
+    <div class="cp-container">
+        <div class="cp-image-container">
+            <img class="image" alt="Image" src="https://cdn-icons-png.flaticon.com/512/64/64572.png ">
+        </div>
+        <div class="cp-information-container">
+            <div class="cp-information-content-container">
+                <h2>${creator.name}</h2>
+                <h3>${creator.prn}</h3>
+                <h3>Contribution: ${creator.contribution}</h3>
+            </div>
+        </div>
+    </div>
+`
+})

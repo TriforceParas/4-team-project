@@ -61,10 +61,10 @@ let musicPageHTML = `
 
 let shortsPageHTML = `
 <div class="scroll-video-button">
-<button class="scroll-up-button js-scroll-up-button">
+<button class="scroll-up-button" id="scrollUpButton">
   <ion-icon name="arrow-up-outline"></ion-icon>
 </button>
-<button class="scroll-down-button js-down-up-button">
+<button class="scroll-down-button" id="scrollDownButton">
   <ion-icon name="arrow-down-outline"></ion-icon>
 </button>
 </div>
@@ -75,6 +75,11 @@ let communityTabHTML = ``;
 
 let profilePageHTML = ``;
 
-let creatorPageHTML = ``;
+let creatorPageHTML = `
+<div class="cp-viewport">
+    <div class="cp-content"></div>
+</div>
+`;
+
 
 let videoUploadPageHTML = ``;

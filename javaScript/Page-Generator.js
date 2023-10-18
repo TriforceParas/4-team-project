@@ -41,4 +41,5 @@ uploadButton.addEventListener('click', () => {
 
 creatorButton.addEventListener('click', () => {
   contentPage.innerHTML = creatorPageHTML;
+  document.querySelector('.cp-content').innerHTML = creatorPage;
 })

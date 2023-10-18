@@ -154,7 +154,7 @@ const musicPageData = [
 const shortsPageData = [
   {
     title: "This is a Sample Video",
-    videoLocation: "vid2.mp4",
+    videoLocation: "vid1.mp4",
     creatorName: "@lawdasur",
     profilePictureLocation: "profile-picture.png",
     like: "230k",
@@ -163,7 +163,7 @@ const shortsPageData = [
   },
   {
     title: "This is a Sample Video2",
-    videoLocation: "vid1.mp4",
+    videoLocation: "vid2.mp4",
     creatorName: "@lawdasurPro",
     profilePictureLocation: "creator1.png",
     like: "230k",
@@ -172,4 +172,30 @@ const shortsPageData = [
   }
 ];
 
-const creatorPageData = [];
+const creatorPageData = [
+  {
+    name: 'PARAS KUMAR SHARMA (Team Leader)',
+    prn: 23030124225,
+    contribution: 'Home,Video,Music,Shorts and JavaScript Back-End'
+  },
+  {
+    name: 'AMEYA MANDAVGANE',
+    prn: 23030124239,
+    contribution: 'Creator Page Front-End'
+  },
+  {
+    name: 'KHUSHBOO SINGH',
+    prn: 23030124207,
+    contribution: 'Community Tab Fron-End'
+  },
+  {
+    name: 'DRITHI CHOPRA',
+    prn: 23030124270,
+    contribution: 'Login Page Front-End'
+  },
+  {
+    name: 'ARYA JAGDALE',
+    prn: 23030124258,
+    contribution: 'Upload Page'
+  },
+];
