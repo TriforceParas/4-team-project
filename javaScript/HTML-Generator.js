@@ -58,7 +58,7 @@ musicPageData.forEach((music) => {
   `
 });
 
-let currentVideo = 0;
+let currentVideo = shortsPageData.length - 1;
 function shortsPage() {
   document.querySelector('.shorts-video-container').innerHTML = `
   <div class="shorts-container">
@@ -94,14 +94,14 @@ function shortsPage() {
 function scrollUp() {
   if (currentVideo >= (shortsPageData.length - 1)){
     currentVideo = shortsPageData.length - 1;
-  } else currentVideo--;
+  } else currentVideo++;
   shortsPage();
   console.log(currentVideo);
 };
 function scrollDown() {
   if (currentVideo <= 0) {
     currentVideo = 0;
-  } else currentVideo++;
+  } else currentVideo--;
   shortsPage();
   console.log(currentVideo);
 };
