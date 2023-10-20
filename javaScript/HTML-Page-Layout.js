@@ -61,10 +61,10 @@ let musicPageHTML = `
 
 let shortsPageHTML = `
 <div class="scroll-video-button">
-<button class="scroll-up-button" id="scrollUpButton">
+<button class="scroll-up-button" onclick="scrollUp();">
   <ion-icon name="arrow-up-outline"></ion-icon>
 </button>
-<button class="scroll-down-button" id="scrollDownButton">
+<button class="scroll-down-button" onclick="scrollDown();">
   <ion-icon name="arrow-down-outline"></ion-icon>
 </button>
 </div>

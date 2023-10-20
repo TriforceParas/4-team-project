@@ -153,7 +153,7 @@ const musicPageData = [
 
 const shortsPageData = [
   {
-    title: "This is a Sample Video",
+    title: "This is a Sample Video1",
     videoLocation: "vid1.mp4",
     creatorName: "@lawdasur",
     profilePictureLocation: "profile-picture1.png",
@@ -165,10 +165,10 @@ const shortsPageData = [
     title: "This is a Sample Video2",
     videoLocation: "vid2.mp4",
     creatorName: "@lawdasurPro",
-    profilePictureLocation: "profile-picture2.png",
-    like: "230k",
-    disLike: "10k",
-    comments: "100k",
+    profilePictureLocation: "profile-picture1.png",
+    like: "430k",
+    disLike: "110k",
+    comments: "563k",
   }
 ];
 

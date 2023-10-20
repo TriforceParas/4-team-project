@@ -1,7 +1,6 @@
 let homePage = '';
 let videoPage = '';
 let musicPage = '';
-let shortsPage = '';
 let creatorPage = '';
 
 homePageData.forEach((home) => {
@@ -60,36 +59,55 @@ musicPageData.forEach((music) => {
 });
 
 let currentVideo = 0;
+function shortsPage() {
+  document.querySelector('.shorts-video-container').innerHTML = `
+  <div class="shorts-container">
+  <div class="video-interact-container">
+      <video class="shorts-player" autoplay loop>
+          <source src="assets/shorts-page/shorts-videos/${shortsPageData[currentVideo].videoLocation}" type="video/mp4" />
+      </video>
+      <div class="video-overlay">
+          <div class="shorts-title">${shortsPageData[currentVideo].title}</div>
+          <div class="channel-subscribe-button">
+              <div class="profile-picture"><img src="assets/shorts-page/profile-picture/${shortsPageData[currentVideo].profilePictureLocation}"><span>${shortsPageData[currentVideo].creatorName}</span></div>
+              <div><button class="subscribe-button">Subscribe</button></div>
+          </div>
+      </div>
+      <div class="side-controls">
+          <button class="like-button"><ion-icon name="thumbs-up-outline"></ion-icon></button>
+          <span class="like-count">${shortsPageData[currentVideo].like}</span>
+          <button class="dislinke-button"><ion-icon name="thumbs-down-outline"></ion-icon></button>
+          <span class="dislike-count">${shortsPageData[currentVideo].disLike}</span>
+          <button class="comments-button"><ion-icon name="chatbox-outline"></ion-icon></button>
+          <span class="comment-count">${shortsPageData[currentVideo].comments}</span>
+          <button class="share-button"><ion-icon name="share-social-outline"></ion-icon></button>
+          <span class="share-lable">Share</span>
+          <button class="more-button"><ion-icon name="add-outline"></ion-icon></button>
+          <div class="profile-picture"><img src="assets/shorts-page/profile-picture/${shortsPageData[currentVideo].profilePictureLocation}"></div>
+      </div>
+  </div>
+  </div>
+  `
+  return shortsPage;
+};
+
+function scrollUp() {
+  if (currentVideo >= (shortsPageData.length - 1)){
+    currentVideo = shortsPageData.length - 1;
+  } else currentVideo++;
+  shortsPage();
+  console.log(currentVideo);
+};
+function scrollDown() {
+  if (currentVideo <= 0) {
+    currentVideo = 0;
+  } else currentVideo--;
+  shortsPage();
+  console.log(currentVideo);
+};
 
 // to make it post
-shortsPage = `
-<div class="shorts-container">
-<div class="video-interact-container">
-    <video class="shorts-player" autoplay loop>
-        <source src="assets/shorts-page/shorts-videos/${shortsPageData[currentVideo].videoLocation}" type="video/mp4" />
-    </video>
-    <div class="video-overlay">
-        <div class="shorts-title">${shortsPageData[currentVideo].title}</div>
-        <div class="channel-subscribe-button">
-            <div class="profile-picture"><img src="assets/shorts-page/profile-picture/${shortsPageData[currentVideo].profilePictureLocation}"><span>${shortsPageData[currentVideo].creatorName}</span></div>
-            <div><button class="subscribe-button">Subscribe</button></div>
-        </div>
-    </div>
-    <div class="side-controls">
-        <button class="like-button"><ion-icon name="thumbs-up-outline"></ion-icon></button>
-        <span class="like-count">${shortsPageData[currentVideo].like}</span>
-        <button class="dislinke-button"><ion-icon name="thumbs-down-outline"></ion-icon></button>
-        <span class="dislike-count">${shortsPageData[currentVideo].disLike}</span>
-        <button class="comments-button"><ion-icon name="chatbox-outline"></ion-icon></button>
-        <span class="comment-count">${shortsPageData[currentVideo].comments}</span>
-        <button class="share-button"><ion-icon name="share-social-outline"></ion-icon></button>
-        <span class="share-lable">Share</span>
-        <button class="more-button"><ion-icon name="add-outline"></ion-icon></button>
-        <div class="profile-picture"><img src="assets/shorts-page/profile-picture/${shortsPageData[currentVideo].profilePictureLocation}"></div>
-    </div>
-</div>
-</div>
-`
+
 
 creatorPageData.forEach((creator) => {
   creatorPage += `
