@@ -94,14 +94,14 @@ function shortsPage() {
 function scrollUp() {
   if (currentVideo >= (shortsPageData.length - 1)){
     currentVideo = shortsPageData.length - 1;
-  } else currentVideo++;
+  } else currentVideo--;
   shortsPage();
   console.log(currentVideo);
 };
 function scrollDown() {
   if (currentVideo <= 0) {
     currentVideo = 0;
-  } else currentVideo--;
+  } else currentVideo++;
   shortsPage();
   console.log(currentVideo);
 };
