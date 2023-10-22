@@ -1,0 +1,73 @@
+:root {
+    --b-t-w-color: black;
+    --login-border-color: rgb(83, 83, 83);
+    --text-color : rgb(58, 58, 58);
+}
+
+.dark-theme {
+    --b-t-w-color: white;
+    --login-border-color: rgb(59, 59, 59);
+    --text-color : rgb(228, 228, 228);
+}
+
+.login-title {
+    font-size: 50px;
+    color: var(--b-t-w-color);
+    transition: 0.15s;
+    margin-bottom: 25px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+.login-box {
+    border: solid 5px var(--login-border-color);
+    padding: 40px 40px 20px 40px;
+    border-radius: 40px;
+    transition: 0.15s;
+}
+
+.login-image {
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.login-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    margin-bottom: 20px;
+    transition: 0.15s;
+}
+
+.login-information {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-color);
+    transition: 0.15s;
+}
+
+.login-button {
+    padding: 12px 20px;
+    border-radius: 9999999px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(230, 21, 21);
+    color: white;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.login-button:hover {
+    background-color: rgb(245, 46, 46);
+}

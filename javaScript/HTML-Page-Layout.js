@@ -73,7 +73,12 @@ let shortsPageHTML = `
 
 let communityTabHTML = ``;
 
-let profilePageHTML = ``;
+let loginPageHTML = `
+<div class="login-container">
+<h1 class="login-title">Choose Account</h1>
+<div class="login-box"></div>
+</div>
+`;
 
 let creatorPageHTML = `
 <div class="cp-viewport">

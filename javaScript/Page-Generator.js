@@ -28,7 +28,8 @@ shortsButton.addEventListener('click', () => {
   shortsPage();
 })
 profileButton.addEventListener('click', () => {
-  contentPage.innerHTML = profilePageHTML;
+  contentPage.innerHTML = loginPageHTML;
+  document.querySelector('.login-box').innerHTML = loginPage;
 })
 
 communityButton.addEventListener('click', () => {

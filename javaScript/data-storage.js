@@ -47,6 +47,48 @@ const homePageData = [
     videoAuthor: 'MrBeast',
     videoStats: '141M views &#183; 1 year ago'
   },
+  {
+    thumbnailLocation: 'RaGa.png',
+    duration: '11:23',
+    videoAuthor: 'RaGa Vlogs',
+    videoTitle: 'Easiest way to convert potato to GOLD | आलू को सोना बनाने का सबसे आसान तरीका',
+    videoStats: '1.2B Scams &#183; 9 Years Ago'
+  },
+  {
+    thumbnailLocation: 'coke.png',
+    duration: '23:30',
+    videoAuthor: 'Niqqa Vlogs',
+    videoTitle: 'What happens when you open coke bottle upside down',
+    videoStats: '2.2M Openers &#183; 11 Months Ago'
+  },
+  {
+    thumbnailLocation: 'AMAY.png',
+    duration: '13:32',
+    videoAuthor: 'Amay Hacks',
+    videoTitle: 'Apni mansik tanaw theek kare in 10 tariko se',
+    videoStats: '1M Reliefs &#183; 6 Days Ago'
+  },
+  {
+    thumbnailLocation: 'kota.png',
+    duration: '15:25',
+    videoAuthor: 'Unka Kollege',
+    videoTitle: 'Freshers guide for students living in Kota',
+    videoStats: '203k Died &#183; 7 Years Ago'
+  },
+  {
+    thumbnailLocation: 'flying-tutorial.png',
+    duration: '9:11',
+    videoAuthor: 'Captan Salmon Bhoi',
+    videoTitle: 'Beginerrs guide on How to fly an airplane',
+    videoStats: '911 Flyings &#183; 2 Years Ago'
+  },
+  {
+    thumbnailLocation: 'CARRY.png',
+    duration: '12:69',
+    videoAuthor: 'CarryMinati Tips',
+    videoTitle: 'How to attract a bootiful garls',
+    videoStats: '1M Lerners &#183; 29 Days Ago'
+  },
 ];
 
 const videoPageData = [
@@ -177,30 +219,63 @@ const creatorPageData = [
     name: 'PARAS KUMAR SHARMA (Team Leader)',
     photoLocation: 'paras.png',
     prn: 23030124225,
-    contribution: 'Home,Video,Music,Shorts and JavaScript Back-End'
+    contribution: 'Home,Video,Music,Shorts and JavaScript Back-End',
+    buttonId : 'userParas'
   },
   {
     name: 'AMEYA MANDAVGANE',
     photoLocation: 'ameya.png',
     prn: 23030124239,
-    contribution: 'Creator Page Front-End'
+    contribution: 'Creator Page Front-End',
+    buttonId : 'userAmeya'
   },
   {
     name: 'KHUSHBOO SINGH',
     photoLocation: 'khushboo.png',
     prn: 23030124207,
-    contribution: 'Community Tab Front-End'
+    contribution: 'Community Tab Front-End',
+    buttonId : 'userKhushboo'
   },
   {
     name: 'DRITHI CHOPRA',
     photoLocation: 'drithi.png',
     prn: 23030124270,
-    contribution: 'Login Page Front-End'
+    contribution: 'Login Page Front-End',
+    buttonId : 'userDrithi'
   },
   {
     name: 'ARYA JAGDALE',
     photoLocation: 'arya.png',
     prn: 23030124258,
-    contribution: 'Upload Page'
+    contribution: 'Upload Page',
+    buttonId : 'userArya'
+  },
+];
+
+const loginPageData = [
+  {
+    name: 'PARAS KUMAR SHARMA',
+    photoLocation: 'paras.png',
+    buttonId : 'userParas'
+  },
+  {
+    name: 'AMEYA MANDAVGANE',
+    photoLocation: 'ameya.png',
+    buttonId : 'userAmeya'
+  },
+  {
+    name: 'KHUSHBOO SINGH',
+    photoLocation: 'khushboo.png',
+    buttonId : 'userKhushboo'
+  },
+  {
+    name: 'DRITHI CHOPRA',
+    photoLocation: 'drithi.png',
+    buttonId : 'userDrithi'
+  },
+  {
+    name: 'ARYA JAGDALE',
+    photoLocation: 'arya.png',
+    buttonId : 'userArya'
   },
 ];

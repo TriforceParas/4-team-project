@@ -2,6 +2,7 @@ let homePage = '';
 let videoPage = '';
 let musicPage = '';
 let creatorPage = '';
+let loginPage = '';
 
 homePageData.forEach((home) => {
   homePage += `
@@ -124,4 +125,21 @@ creatorPageData.forEach((creator) => {
         </div>
     </div>
 `
+})
+
+
+loginPageData.forEach((user) => {
+  loginPage += `
+  <div class="login-user">
+      <div class="login-information">
+          <div class="login-image-div">
+              <img class="login-image" src="assets/creator-page/${user.photoLocation}">
+          </div>
+          <span class="login-name">${user.name}</span>
+      </div>
+      <div class="login-button-div">
+          <button class="login-button" id = "${user.buttonId}">Login</button>
+      </div>
+  </div>
+  `
 })
