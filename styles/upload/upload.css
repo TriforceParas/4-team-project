@@ -1,0 +1,58 @@
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.upload-section {
+    border: 3px solid var(--border-color);
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    transition: 0.15s;
+}
+.up-top-section {
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 30px;
+    padding: 20px 20px 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--b-t-w-color);
+    transition: 0.15s;
+}
+.up-bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+
+.up-icon {
+    font-size: 50px;
+    background-color: var(--search-button-color);
+    color: var(--b-t-w-color);
+    padding: 40px;
+    border-radius: 99999999px;
+    margin-bottom: 20px;
+    transition: 0.15s;
+}
+.up-instructions {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--b-t-w-color);
+}
+.up-discription {
+    color: var(--b-t-w-color);
+
+}
+.up-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: rgb(15, 111, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+}

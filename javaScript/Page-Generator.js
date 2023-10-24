@@ -34,6 +34,7 @@ profileButton.addEventListener('click', () => {
 
 communityButton.addEventListener('click', () => {
   contentPage.innerHTML = communityTabHTML;
+  document.querySelector('.com-indi-container').innerHTML = communityPage;
 })
 
 uploadButton.addEventListener('click', () => {

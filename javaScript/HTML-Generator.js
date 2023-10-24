@@ -3,6 +3,7 @@ let videoPage = '';
 let musicPage = '';
 let creatorPage = '';
 let loginPage = '';
+let communityPage = '';
 
 homePageData.forEach((home) => {
   homePage += `
@@ -143,3 +144,27 @@ loginPageData.forEach((user) => {
   </div>
   `
 })
+
+communityPageData.forEach((post) => {
+communityPage += `
+<div class="com-sections">
+    <div class="com-top-section">
+        <div class="com-post-creator-pfp">
+            <img class="com-post-creator-image" src="assets/creator-page/${post.photoLocation}"/>
+        </div>
+        <div class="com-post-creator-details">
+            <div class="com-post-creator-name">${post.name}</div>
+            <div class="com-post-creator-time">${post.postTime}</div>
+        </div>
+    </div>
+    <div class="com-middle-section">
+        <span class="com-post-content">${post.postContent}</span>
+    </div>
+    <div class="com-bottom-section">
+        <div class="com-like-dislike-buttons">
+            <button><ion-icon name="thumbs-up-outline"></ion-icon></button>
+            <button><ion-icon name="thumbs-down-outline"></ion-icon></button>
+        </div>
+    </div>
+</div>
+`})

@@ -8,7 +8,7 @@ let videoPageHTML = `
                 <source src="assets/video-page/video/Red birb.mp4" type="video/mp4" />
         </div>
         <div class="about-video">
-            <div class="video-title">Red Parrot doing HUIHUIHUIHUI</div>
+            <div class="current-video-title">Red Parrot doing HUIHUIHUIHUI</div>
             <div class="video-interface">
                 <div class="interface-left-section">
                     <div class="author-image-div"><img class="author-image"
@@ -21,11 +21,11 @@ let videoPageHTML = `
                 </div>
                 <div class="interface-right-section">
                     <div class="like-dislike-button">
-                        <div><button class="like-button"><img src="images/icons/like.png" width="17px">Like</button></div>
-                        <div><button class="dislike-button"><img src="images/icons/dislike.png" width="17px">Dislike</button></div>
+                        <div><button class="like-button"><ion-icon name="thumbs-up-outline"></ion-icon>Like</button></div>
+                        <div><button class="dislike-button"><ion-icon name="thumbs-down-outline"></ion-icon>Dislike</button></div>
                     </div>
-                    <div><button class="share-button"><img src="images/icons/share.png" width="17px">Share</button></div>
-                    <div><button class="download-button"><img src="images/icons/download.png" width="13px">Download</button></div>
+                    <div><button class="share-button"><ion-icon name="share-social-outline"></ion-icon>Share</button></div>
+                    <div><button class="download-button"><ion-icon name="arrow-down-outline"></ion-icon>Download</button></div>
                 </div>
             </div>
         </div>
@@ -71,7 +71,18 @@ let shortsPageHTML = `
 <div class="shorts-video-container"></div>
 `;
 
-let communityTabHTML = ``;
+let communityTabHTML = `
+<div class="com-container">
+<div class="com-create-post">
+    <div class="com-post-profile">
+        <img class="com-creator-image" src="assets/creator-page/khushboo.png" />
+    </div>
+    <input class="com-input-post" type="text" placeholder="Type to create Post">
+    <button class="com-post-button"><ion-icon name="paper-plane-outline"></ion-icon>Post</button>
+</div>
+<div class="com-indi-container"></div>
+</div>
+`;
 
 let loginPageHTML = `
 <div class="login-container">
@@ -87,4 +98,18 @@ let creatorPageHTML = `
 `;
 
 
-let videoUploadPageHTML = ``;
+let videoUploadPageHTML = `
+<div class="upload-container">
+<div class="upload-section">
+    <div class="up-top-section">
+        Upload Video
+    </div>
+    <div class="up-bottom-section">
+        <ion-icon class="up-icon" name="cloud-upload-outline"></ion-icon>
+        <div class="up-instructions">Drag and drop file to uplaod</div>
+        <div class="up-discription">Your videos will be private until you publish them.</div>
+        <button class="up-button">UPLOAD</button>
+    </div>
+</div>
+</div>
+`;

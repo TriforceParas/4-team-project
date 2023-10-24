@@ -1,13 +1,3 @@
-:root {
-  --b-t-w-color: black;
-  --button-color: rgb(238, 238, 238);
-}
-
-.dark-theme {
-  --b-t-w-color: white;
-  --button-color: rgb(53, 53, 53);
-}
-
 .video-page {
   margin: -20px;
   display: grid;
@@ -48,7 +38,6 @@
   background-color: rgba(39, 39, 39, 0.90);
   color: white;
   position: absolute;
-  font-family: Roboto, Arial;
   font-size: 12px;
   font-weight: 500;
   border-radius: 5px;
@@ -58,13 +47,13 @@
   bottom: 28px;
 }
 
-.video-title {
+.current-video-title {
   font-size: 20px;
   margin-top: 10px;
-  font-family: Roboto, Arial;
   font-weight: 500;
   color: var(--b-t-w-color);
   transition: 0.15s;
+  margin-top: 10px;
 }
 
 .video-interface,
@@ -79,7 +68,6 @@
 
 .like-dislike-button {
   display: flex;
-
 }
 
 .share-button,
@@ -97,6 +85,8 @@
   cursor: pointer;
   display: flex;
   column-gap: 5px;
+  color: var(--b-t-w-color);
+  transition: 0.15s;
 }
 
 .share-button:hover,
@@ -104,6 +94,15 @@
 .like-button:hover,
 .dislike-button:hover {
   border: solid px rgb(163, 163, 163);
+}
+
+.like-button ion-icon,
+.dislike-button ion-icon,
+.share-button ion-icon,
+.download-button ion-icon {
+  font-size: 16px;
+  color: var(--b-t-w-color);
+  transition: 0.15s;
 }
 
 .like-button {
@@ -143,7 +142,6 @@
 .author-subscribers,
 .reco-vid-author,
 .views-uploaddate {
-  font-family: Roboto, Arial;
   cursor: pointer;
 }
 

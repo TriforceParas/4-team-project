@@ -279,3 +279,36 @@ const loginPageData = [
     buttonId : 'userArya'
   },
 ];
+
+const communityPageData = [
+  {
+    name: 'PARAS KUMAR SHARMA',
+    photoLocation: 'paras.png',
+    postTime: '12 Hrs Ago',
+    postContent: 'Hello World!'
+  },
+  {
+    name: 'AMEYA MANDAVGANE',
+    photoLocation: 'ameya.png',
+    postTime: '6 Hrs Ago',
+    postContent: 'This is a test message.'
+  },
+  {
+    name: 'KHUSHBOO SINGH',
+    photoLocation: 'khushboo.png',
+    postTime: '4 Hrs Ago',
+    postContent: 'Testing the app...'
+  },
+  {
+    name: 'DRITHI CHOPRA',
+    photoLocation: 'drithi.png',
+    postTime: '3 Hrs Ago',
+    postContent: 'App testing in progress...'
+  },
+  {
+    name: 'ARYA JAGDALE',
+    photoLocation: 'arya.png',
+    postTime: '2 Hrs Ago',
+    postContent: 'First Post! Welcome to our Community Page!'
+  }
+];

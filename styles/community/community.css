@@ -1,0 +1,110 @@
+.com-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.com-create-post {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 9px;
+    border: 3px solid var(--border-color);
+    transition: 0.15s;
+}
+
+.com-creator-image,
+.com-post-creator-image {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 99999px;
+}
+
+.com-input-post {
+    height: 34px;
+    border-radius: 99999px;
+    border: 1px solid var(--border-color);
+    text-indent: 10px;
+    margin-right: 20px;
+    width: 400px;
+    color: var(--b-t-w-color);
+    background-color: var(--search-button-color);
+    transition: 0.15s;
+}
+
+.com-post-button {
+    padding: 10px 15px;
+    border: 1px solid var(--border-color);
+    background-color: var(--search-button-color);
+    border-radius: 999999px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.15s;
+    color: var(--b-t-w-color);
+}
+
+.com-post-button:hover {
+    background-color: var(--search-hover-color);
+}
+
+.com-indi-container {
+    width: 620px;
+    margin-top: 20px;
+}
+
+.com-sections {
+    padding: 20px;
+    border: 3px solid var(--border-color);
+    border-radius: 9px;
+    margin-bottom: 20px;
+    transition: 0.15s;
+}
+
+.com-post-button ion-icon {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.com-top-section {
+    display: flex;
+    margin-bottom: 10px;
+    color: var(--b-t-w-color);
+    align-items: center;
+}
+
+.com-post-creator-image {
+    margin-right: 10px;
+}
+
+.com-post-creator-name {
+    font-weight: bold;
+}
+
+.com-middle-section {
+    margin-bottom: 10px;
+    color: var(--b-t-w-color);
+}
+
+.com-like-dislike-buttons button ion-icon {
+    font-size: 15px;
+    color: var(--b-t-w-color);
+    transition: 0.15s;
+}
+
+.com-like-dislike-buttons button {
+    padding: 5px 15px;
+    border-radius: 99999px;
+    border: 1px solid var(--border-color);
+    background-color: var(--search-button-color);
+    cursor: pointer;
+    transition: 0.15s;
+
+}
+
+.com-like-dislike-buttons button:hover{
+    background-color: var(--search-hover-color);
+}

@@ -1,20 +1,5 @@
 body {
-  font-family: Roboto, Arial;
   padding: 100px 60px 0px 120px;
-}
-
-:root {
-  --b-t-2-color: black;
-  --rec-audio-nav-color: rgb(245, 245, 245);
-  --rec-audio-border-color: black;
-  --audio-controls-color: gray
-}
-
-.dark-theme {
-  --b-t-2-color: white;
-  --rec-audio-nav-color: rgb(58, 58, 58);
-  --rec-audio-border-color: rgb(100, 100, 100);
-  --audio-controls-color: rgb(161, 161, 161);
 }
 
 .main-content-audio {
@@ -22,7 +7,7 @@ body {
   grid-template-columns: 1fr 1fr;
   margin-left: -20px;
   margin-top: -20px;
-  color: var(--b-t-2-color);
+  color: var(--b-t-w-color);
   transition: 0.15s;
 }
 
@@ -70,7 +55,7 @@ audio {
 
 .audio-sort button {
   background-color: var(--rec-audio-nav-color);
-  color: var(--b-t-2-color);
+  color: var(--b-t-w-color);
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
@@ -82,7 +67,7 @@ audio {
 
 .audio-navigation button {
   background-color: var(--rec-audio-nav-color);
-  color: var(--b-t-2-color);
+  color: var(--b-t-w-color);
   flex: 1;
   font-size: 16px;
   font-weight: bold;

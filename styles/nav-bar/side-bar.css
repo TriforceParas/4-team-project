@@ -1,15 +1,3 @@
-:root {
-  --primary-color: white;
-  --b-t-w-color: black;
-  --hover-color: rgb(238, 238, 238);
-}
-
-.dark-theme {
-  --primary-color: rgb(17, 17, 17);
-  --b-t-w-color: white;
-  --hover-color: rgb(39, 39, 39);
-}
-
 .side-bar-menu {
   position: fixed;
   top: 51px;

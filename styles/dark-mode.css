@@ -1,0 +1,31 @@
+:root {
+    --b-t-w-color: black;
+    --login-border-color: rgb(83, 83, 83);
+    --text-color: rgb(58, 58, 58);
+    --rec-audio-nav-color: rgb(245, 245, 245);
+    --rec-audio-border-color: black;
+    --audio-controls-color: rgb(168, 168, 168);
+    --search-button-color: rgb(238, 238, 238);/*1*/
+    --border-color: rgb(199, 199, 199);
+    --hover-color: rgb(216, 216, 216);
+    --search-hover-color: rgb(224, 224, 224);/*2*/
+    --primary-color: rgb(233, 233, 233);
+    --interactive-button-color: transparent;
+    --button-color: rgb(238, 238, 238);
+}
+
+.dark-theme {
+    --b-t-w-color: white;
+    --login-border-color: rgb(59, 59, 59);
+    --text-color: rgb(228, 228, 228);
+    --rec-audio-nav-color: rgb(58, 58, 58);
+    --rec-audio-border-color: rgb(100, 100, 100);
+    --audio-controls-color: rgb(161, 161, 161);
+    --search-button-color: rgb(37, 37, 37);/*1*/
+    --border-color: rgb(59, 59, 59);
+    --hover-color: rgb(39, 39, 39);
+    --search-hover-color: rgb(48, 48, 48);/*2*/
+    --primary-color: rgb(17, 17, 17);
+    --interactive-button-color: rgb(37, 37, 37);
+    --button-color: rgb(53, 53, 53);
+}
