@@ -50,6 +50,7 @@ const homePageData = [
   {
     thumbnailLocation: 'RaGa.png',
     duration: '11:23',
+    channelProfilePictureLocation: 'raga.png',
     videoAuthor: 'RaGa Vlogs',
     videoTitle: 'Easiest way to convert potato to GOLD | आलू को सोना बनाने का सबसे आसान तरीका',
     videoStats: '1.2B Scams &#183; 9 Years Ago'
@@ -57,6 +58,7 @@ const homePageData = [
   {
     thumbnailLocation: 'coke.png',
     duration: '23:30',
+    channelProfilePictureLocation: 'bottle.png',
     videoAuthor: 'Niqqa Vlogs',
     videoTitle: 'What happens when you open coke bottle upside down',
     videoStats: '2.2M Openers &#183; 11 Months Ago'
@@ -64,6 +66,7 @@ const homePageData = [
   {
     thumbnailLocation: 'AMAY.png',
     duration: '13:32',
+    channelProfilePictureLocation: 'mindPeace.png',
     videoAuthor: 'Amay Hacks',
     videoTitle: 'Apni mansik tanaw theek kare in 10 tariko se',
     videoStats: '1M Reliefs &#183; 6 Days Ago'
@@ -71,6 +74,7 @@ const homePageData = [
   {
     thumbnailLocation: 'kota.png',
     duration: '15:25',
+    channelProfilePictureLocation: 'college.png',
     videoAuthor: 'Unka Kollege',
     videoTitle: 'Freshers guide for students living in Kota',
     videoStats: '203k Died &#183; 7 Years Ago'
@@ -78,6 +82,7 @@ const homePageData = [
   {
     thumbnailLocation: 'flying-tutorial.png',
     duration: '9:11',
+    channelProfilePictureLocation: 'airplane.png',
     videoAuthor: 'Captan Salmon Bhoi',
     videoTitle: 'Beginerrs guide on How to fly an airplane',
     videoStats: '911 Flyings &#183; 2 Years Ago'
@@ -85,6 +90,7 @@ const homePageData = [
   {
     thumbnailLocation: 'CARRY.png',
     duration: '12:69',
+    channelProfilePictureLocation: 'carry.png',
     videoAuthor: 'CarryMinati Tips',
     videoTitle: 'How to attract a bootiful garls',
     videoStats: '1M Lerners &#183; 29 Days Ago'
@@ -182,7 +188,7 @@ const musicPageData = [
   {
     thumbnailLocation: 'thumbnail-9.png',
     artistName: 'yousaobi',
-    trackName: 'istanbul',
+    trackName: 'Yasu Yasu',
     trackDuration: '2:30',
   },
   {
@@ -195,18 +201,36 @@ const musicPageData = [
 
 const shortsPageData = [
   {
-    title: "This is a Sample Video1",
-    videoLocation: "vid1.mp4",
-    creatorName: "@lawdasur",
+    title: "Helpful Life Hacks!!",
+    videoLocation: "Life_Hack.mp4",
+    creatorName: "@Hacker",
     profilePictureLocation: "profile-picture1.png",
     like: "230k",
     disLike: "10k",
     comments: "100k",
   },
   {
-    title: "This is a Sample Video2",
-    videoLocation: "vid2.mp4",
-    creatorName: "@lawdasurPro",
+    title: "Minecraft Special Update !!",
+    videoLocation: "Cursed_Minecraft.mp4",
+    creatorName: "@Mojang",
+    profilePictureLocation: "profile-picture1.png",
+    like: "430k",
+    disLike: "110k",
+    comments: "563k",
+  },
+  {
+    title: "What is Love",
+    videoLocation: "Modi.mp4",
+    creatorName: "@narendramodi",
+    profilePictureLocation: "profile-picture1.png",
+    like: "430k",
+    disLike: "110k",
+    comments: "563k",
+  },
+  {
+    title: "Motivational Video",
+    videoLocation: "Motivation.mp4",
+    creatorName: "@influencer",
     profilePictureLocation: "profile-picture1.png",
     like: "430k",
     disLike: "110k",
@@ -230,11 +254,11 @@ const creatorPageData = [
     buttonId : 'userAmeya'
   },
   {
-    name: 'KHUSHBOO SINGH',
-    photoLocation: 'khushboo.png',
-    prn: 23030124207,
-    contribution: 'Community Tab Front-End',
-    buttonId : 'userKhushboo'
+    name: 'ARYA JAGDALE',
+    photoLocation: 'arya.png',
+    prn: 23030124258,
+    contribution: 'Upload Page',
+    buttonId : 'userArya'
   },
   {
     name: 'DRITHI CHOPRA',
@@ -244,11 +268,11 @@ const creatorPageData = [
     buttonId : 'userDrithi'
   },
   {
-    name: 'ARYA JAGDALE',
-    photoLocation: 'arya.png',
-    prn: 23030124258,
-    contribution: 'Upload Page',
-    buttonId : 'userArya'
+    name: 'KHUSHBOO SINGH',
+    photoLocation: 'khushboo.png',
+    prn: 23030124207,
+    contribution: 'Filler member',
+    buttonId : 'userKhushboo'
   },
 ];
 
@@ -262,11 +286,6 @@ const loginPageData = [
     name: 'AMEYA MANDAVGANE',
     photoLocation: 'ameya.png',
     buttonId : 'userAmeya'
-  },
-  {
-    name: 'KHUSHBOO SINGH',
-    photoLocation: 'khushboo.png',
-    buttonId : 'userKhushboo'
   },
   {
     name: 'DRITHI CHOPRA',
@@ -285,19 +304,13 @@ const communityPageData = [
     name: 'PARAS KUMAR SHARMA',
     photoLocation: 'paras.png',
     postTime: '12 Hrs Ago',
-    postContent: 'Hello World!'
+    postContent: "Welcome to our one-stop entertainment destination! At KaekoTube, we've curated a vibrant, dynamic platform that brings the best of visual and auditory delights right to your fingertips. Whether you're a music enthusiast, a movie buff, or a budding content creator, we've got something special for ya."
   },
   {
     name: 'AMEYA MANDAVGANE',
     photoLocation: 'ameya.png',
     postTime: '6 Hrs Ago',
-    postContent: 'This is a test message.'
-  },
-  {
-    name: 'KHUSHBOO SINGH',
-    photoLocation: 'khushboo.png',
-    postTime: '4 Hrs Ago',
-    postContent: 'Testing the app...'
+    postContent: 'The Community Tab provides a way for users to interact with their community and share content.'
   },
   {
     name: 'DRITHI CHOPRA',

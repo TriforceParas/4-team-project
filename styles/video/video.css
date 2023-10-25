@@ -1,7 +1,6 @@
 .video-page {
   margin: -20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   column-gap: 40px;
 }
 
@@ -10,8 +9,8 @@
 }
 
 .video-recomended {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  column-gap: 10px;
 }
 
 .author-image {
@@ -24,12 +23,12 @@
 .reco-vid-thumbnail {
   display: inline-block;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .reco-vid-thumbnail img {
-  width: 220px;
+  width: 210px;
   border-radius: 10px;
-  margin-bottom: 20px;
   margin-left: 0px;
   cursor: pointer;
 }
@@ -42,9 +41,9 @@
   font-weight: 500;
   border-radius: 5px;
   padding: 4px;
-  right: 14px;
+  right: 8px;
   z-index: 1;
-  bottom: 28px;
+  bottom: 8px;
 }
 
 .current-video-title {

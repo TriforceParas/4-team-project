@@ -8,6 +8,8 @@
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 10px;
+  color: var(--b-t-w-color);
+  transition: 0.15s;
 }
 
 .video-info-grid {
@@ -56,7 +58,7 @@
 
 @media (min-width: 1000px) {
   .video-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 

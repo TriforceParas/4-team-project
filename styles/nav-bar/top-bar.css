@@ -97,7 +97,6 @@ body {
 }
 
 .search-bar::placeholder {
-  
   font-size: 16px;
   color: var(--b-t-w-color);
 }
@@ -106,7 +105,7 @@ body {
   border: solid 1px var(--border-color);
   background-color: var(--search-button-color);
   margin-left: -1px;
-  height: 40px;
+  height: 36px;
   width: 65px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
