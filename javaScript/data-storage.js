@@ -8,13 +8,14 @@ const homePageData = [
     videoStats: '3.4M views &#183; 6 months ago'
   },
   {
-    thumbnailLocation: 'thumbnail-2.webp',
-    duration: '14:20',
-    channelProfilePictureLocation: 'channel-2.jpeg',
-    videoTitle: 'Try Not To Laugh Challenge #9',
-    videoAuthor: 'Markiplier',
-    videoStats: '19Mviews &#183; 4 years ago'
+    thumbnailLocation: 'CARRY.png',
+    duration: '12:69',
+    channelProfilePictureLocation: 'carry.png',
+    videoAuthor: 'CarryMinati Tips',
+    videoTitle: 'How to attract a bootiful garls',
+    videoStats: '1M Lerners &#183; 29 Days Ago'
   },
+
   {
     thumbnailLocation: 'thumbnail-3.webp',
     duration: '14:20',
@@ -24,12 +25,12 @@ const homePageData = [
     videoStats: '12M views &#183; 1 year ago'
   },
   {
-    thumbnailLocation: 'thumbnail-4.webp',
-    duration: '14:20',
-    channelProfilePictureLocation: 'channel-4.jpeg',
-    videoTitle: 'The Simplest Math Problem No One Can Solve - Collatz Conjecture ',
-    videoAuthor: 'Veritasium',
-    videoStats: '18M views &#183; 4 months ago'
+    thumbnailLocation: 'kota.png',
+    duration: '15:25',
+    channelProfilePictureLocation: 'college.png',
+    videoAuthor: 'Unka Kollege',
+    videoTitle: 'Freshers guide for students living in Kota',
+    videoStats: '203k Died &#183; 7 Years Ago'
   },
   {
     thumbnailLocation: 'thumbnail-5.webp',
@@ -72,12 +73,20 @@ const homePageData = [
     videoStats: '1M Reliefs &#183; 6 Days Ago'
   },
   {
-    thumbnailLocation: 'kota.png',
-    duration: '15:25',
-    channelProfilePictureLocation: 'college.png',
-    videoAuthor: 'Unka Kollege',
-    videoTitle: 'Freshers guide for students living in Kota',
-    videoStats: '203k Died &#183; 7 Years Ago'
+    thumbnailLocation: 'thumbnail-2.webp',
+    duration: '14:20',
+    channelProfilePictureLocation: 'channel-2.jpeg',
+    videoTitle: 'Try Not To Laugh Challenge #9',
+    videoAuthor: 'Markiplier',
+    videoStats: '19Mviews &#183; 4 years ago'
+  },
+  {
+    thumbnailLocation: 'thumbnail-4.webp',
+    duration: '14:20',
+    channelProfilePictureLocation: 'channel-4.jpeg',
+    videoTitle: 'The Simplest Math Problem No One Can Solve - Collatz Conjecture ',
+    videoAuthor: 'Veritasium',
+    videoStats: '18M views &#183; 4 months ago'
   },
   {
     thumbnailLocation: 'flying-tutorial.png',
@@ -86,15 +95,7 @@ const homePageData = [
     videoAuthor: 'Captan Salmon Bhoi',
     videoTitle: 'Beginerrs guide on How to fly an airplane',
     videoStats: '911 Flyings &#183; 2 Years Ago'
-  },
-  {
-    thumbnailLocation: 'CARRY.png',
-    duration: '12:69',
-    channelProfilePictureLocation: 'carry.png',
-    videoAuthor: 'CarryMinati Tips',
-    videoTitle: 'How to attract a bootiful garls',
-    videoStats: '1M Lerners &#183; 29 Days Ago'
-  },
+  }
 ];
 
 const videoPageData = [
@@ -244,35 +245,35 @@ const creatorPageData = [
     photoLocation: 'paras.png',
     prn: 23030124225,
     contribution: 'Home,Video,Music,Shorts and JavaScript Back-End',
-    buttonId : 'userParas'
+    buttonId: 'userParas'
   },
   {
     name: 'AMEYA MANDAVGANE',
     photoLocation: 'ameya.png',
     prn: 23030124239,
     contribution: 'Creator Page Front-End',
-    buttonId : 'userAmeya'
+    buttonId: 'userAmeya'
   },
   {
     name: 'ARYA JAGDALE',
     photoLocation: 'arya.png',
     prn: 23030124258,
     contribution: 'Upload Page',
-    buttonId : 'userArya'
+    buttonId: 'userArya'
   },
   {
     name: 'DRITHI CHOPRA',
     photoLocation: 'drithi.png',
     prn: 23030124270,
     contribution: 'Login Page Front-End',
-    buttonId : 'userDrithi'
+    buttonId: 'userDrithi'
   },
   {
     name: 'KHUSHBOO SINGH',
     photoLocation: 'khushboo.png',
     prn: 23030124207,
     contribution: 'Filler member',
-    buttonId : 'userKhushboo'
+    buttonId: 'userKhushboo'
   },
 ];
 
@@ -280,22 +281,22 @@ const loginPageData = [
   {
     name: 'PARAS KUMAR SHARMA',
     photoLocation: 'paras.png',
-    buttonId : 'userParas'
+    buttonId: 'userParas'
   },
   {
     name: 'AMEYA MANDAVGANE',
     photoLocation: 'ameya.png',
-    buttonId : 'userAmeya'
+    buttonId: 'userAmeya'
   },
   {
     name: 'DRITHI CHOPRA',
     photoLocation: 'drithi.png',
-    buttonId : 'userDrithi'
+    buttonId: 'userDrithi'
   },
   {
     name: 'ARYA JAGDALE',
     photoLocation: 'arya.png',
-    buttonId : 'userArya'
+    buttonId: 'userArya'
   },
 ];
 

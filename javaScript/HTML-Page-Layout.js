@@ -5,16 +5,16 @@ let videoPageHTML = `
     <div class="current-video">
         <div>
             <video class="video-play" controls="controls" autoplay>
-                <source src="assets/video-page/video/Red birb.mp4" type="video/mp4" />
+                <source src="assets/video-page/video/Aero_India.mp4" type="video/mp4" />
         </div>
         <div class="about-video">
-            <div class="current-video-title">Red Parrot doing HUIHUIHUIHUI</div>
+            <div class="current-video-title">Aero India 2023 Bengaluru</div>
             <div class="video-interface">
                 <div class="interface-left-section">
                     <div class="author-image-div"><img class="author-image"
                             src="assets/video-page/profile-picture/jod.png" /></div>
                     <div class="author-name-subscribers">
-                        <div class="author-name">Mr. Red Parrot</div>
+                        <div class="author-name">Indian Aiforce</div>
                         <div class="author-subscribers">432k Subscribers</div>
                     </div>
                     <div><button class="subscribe-button">Subscribe</button></div>
