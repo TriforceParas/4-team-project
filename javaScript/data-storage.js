@@ -205,7 +205,7 @@ const shortsPageData = [
     title: "Helpful Life Hacks!!",
     videoLocation: "Life_Hack.mp4",
     creatorName: "@Hacker",
-    profilePictureLocation: "profile-picture1.png",
+    profilePictureLocation: "hack.png",
     like: "230k",
     disLike: "10k",
     comments: "100k",
@@ -214,7 +214,7 @@ const shortsPageData = [
     title: "Minecraft Special Update !!",
     videoLocation: "Cursed_Minecraft.mp4",
     creatorName: "@Mojang",
-    profilePictureLocation: "profile-picture1.png",
+    profilePictureLocation: "mine.png",
     like: "430k",
     disLike: "110k",
     comments: "563k",
@@ -223,7 +223,7 @@ const shortsPageData = [
     title: "What is Love",
     videoLocation: "Modi.mp4",
     creatorName: "@narendramodi",
-    profilePictureLocation: "profile-picture1.png",
+    profilePictureLocation: "modi.png",
     like: "430k",
     disLike: "110k",
     comments: "563k",
@@ -232,7 +232,7 @@ const shortsPageData = [
     title: "Motivational Video",
     videoLocation: "Motivation.mp4",
     creatorName: "@influencer",
-    profilePictureLocation: "profile-picture1.png",
+    profilePictureLocation: "influencer.png",
     like: "430k",
     disLike: "110k",
     comments: "563k",
@@ -272,7 +272,7 @@ const creatorPageData = [
     name: 'KHUSHBOO SINGH',
     photoLocation: 'khushboo.png',
     prn: 23030124207,
-    contribution: 'Filler member',
+    contribution: 'Community Tab',
     buttonId: 'userKhushboo'
   },
 ];
@@ -298,6 +298,11 @@ const loginPageData = [
     photoLocation: 'arya.png',
     buttonId: 'userArya'
   },
+  {
+    name: 'KHUSHBOO SINGH',
+    photoLocation: 'khushboo.png',
+    buttonId: 'userKhushboo'
+  }
 ];
 
 const communityPageData = [
